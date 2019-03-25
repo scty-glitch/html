@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+font-family: 'Cinzel', serif;
+}
+.bgimg{
+  width: 100%;
+  height:100vh;
+  background-image: linear-gradient(27deg,#6A5ACD 50%,#483D8B 50%);
+}
+.centerdiv{
+  width: 350px;
+  height:400px;
+  position: absolute;
+top: 50%;
+left:50%;
+background-color: red;
+transform: translate(-50%,-50%);
+background-image: linear-gradient(27deg,#483D8B 50%,#6A5ACD 50%);
+box-shadow:0 8px 6px -6px black;
+}
+#profilepic{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+ position: relative;
+ top: -60px;
+left: calc( (350px - 120px) / 2 )
+}
+h2{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+ font-size: 2em;
+ word-spacing: 10px;
+ margin-top: -50px;
+ margin-bottom: 50px;
+ text-shadow: -2px 2px 1 px #0A84C6;
+
+}
+
+.inputbox{
+  width: calc(100% - 40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+ padding: 0 10px;
+ box-sizing: border-box;
+
+}
+
+
+::placeholder{
+letter-spacing: 2px;
+color: black;
+
+}
+button{
+width: calc(100% - 40px);
+height: 30px;
+display: block;
+margin: auto;
+color: white;
+background-color: #7B68EE
+
+}
+.Forget password?{
+   width: calc(100% - 40px);
+   line-height: 30px;
+   display: block;
+   margin: auto;
+   color: white;
+   background-color: #ADD8E6;
+   text-transform: uppercase;
+   font-size: 0.8em;
+   text-align: center;
+
+}
